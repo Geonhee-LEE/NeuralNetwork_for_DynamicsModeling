@@ -58,8 +58,8 @@ if __name__ == '__main__':
 
     # get path to top-level module
     path2module = os.path.join(os.path.dirname(os.path.abspath(__file__))
-                               .split('NeuralNetwork_for_VehicleDynamicsModeling')[0],
-                               'NeuralNetwork_for_VehicleDynamicsModeling')
+                               .split('NeuralNetwork_for_DynamicsModeling')[0],
+                               'NeuralNetwork_for_DynamicsModeling')
 
     path_dict = dict()
 

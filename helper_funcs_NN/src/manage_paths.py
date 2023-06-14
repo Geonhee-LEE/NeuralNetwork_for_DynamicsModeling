@@ -20,8 +20,8 @@ def manage_paths() -> dict:
 
     # get path to top-level module
     path2module = os.path.join(os.path.dirname(os.path.abspath(__file__))
-                               .split('NeuralNetwork_for_VehicleDynamicsModeling')[0],
-                               'NeuralNetwork_for_VehicleDynamicsModeling')
+                               .split('NeuralNetwork_for_DynamicsModeling')[0],
+                               'NeuralNetwork_for_DynamicsModeling')
 
     # create datetime-dependent paths
     path_day = datetime.datetime.now().strftime('%Y_%m_%d')
